@@ -3,7 +3,10 @@ lockfileVersion: 5.4
 importers:
 
   .:
-    specifiers: {}
+    specifiers:
+      '@himenon/template-js': ^1.0.2
+    dependencies:
+      '@himenon/template-js': 1.0.2
 
   packages/cjs:
     specifiers:

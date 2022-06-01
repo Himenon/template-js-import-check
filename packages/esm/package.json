@@ -7,10 +7,10 @@
   "scripts": {
     "test": "node ./src/index.mjs"
   },
-  "dependencies": {
-    "@himenon/template-js": "^1.0.2"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@himenon/template-js": "^1.0.5"
+  }
 }

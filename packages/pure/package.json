@@ -6,9 +6,6 @@
   "scripts": {
     "test": "node ./src/index.js"
   },
-  "dependencies": {
-    "@himenon/template-js": "^1.0.2"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC"

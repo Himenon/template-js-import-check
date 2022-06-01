@@ -7,9 +7,6 @@
   "scripts": {
     "test": "ts-node ./src/index.ts"
   },
-  "dependencies": {
-    "@himenon/template-js": "^1.0.2"
-  },
   "devDependencies": {
     "ts-node": "^10.8.0",
     "typescript": "^4.7.2",
