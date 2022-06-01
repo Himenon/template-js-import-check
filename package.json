@@ -1,0 +1,17 @@
+{
+  "name": "template-js-import-check",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "pnpm -r --stream test",
+    "build": "pnpm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@himenon/template-js": "1.0.5-alpha.11"
+  }
+}
