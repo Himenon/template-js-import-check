@@ -4,9 +4,9 @@ importers:
 
   .:
     specifiers:
-      '@himenon/template-js': 1.0.5-alpha.9+69ce9c0
+      '@himenon/template-js': 1.0.5-alpha.11
     dependencies:
-      '@himenon/template-js': 1.0.5-alpha.9
+      '@himenon/template-js': 1.0.5-alpha.11
 
   packages/cjs:
     specifiers: {}
@@ -40,8 +40,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.9
     dev: true
 
-  /@himenon/template-js/1.0.5-alpha.9:
-    resolution: {integrity: sha512-Rxjy78OPuR/u1A4ZjosWEWmr6icu+Ec8UAJEiV6thMKYHIS/b9fXlZoIShnezOA34iJMLM/mJa99xV1FnxuEuw==}
+  /@himenon/template-js/1.0.5-alpha.11:
+    resolution: {integrity: sha512-fKus76lDb4RVA4xEpXyWcJ9d2OuKEaFnQNPWIS6t1PWSv/1zt0g8ZQyMcOoHkRnDNdOLvjBS8Hu7jBSxvBgmqw==}
     engines: {pnpm: '>=7'}
     dependencies:
       template-js-import-check: 'link:'

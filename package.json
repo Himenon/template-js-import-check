@@ -12,6 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@himenon/template-js": "1.0.5-alpha.9+69ce9c0"
+    "@himenon/template-js": "1.0.5-alpha.11"
   }
 }
