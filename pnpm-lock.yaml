@@ -4,38 +4,26 @@ importers:
 
   .:
     specifiers:
-      '@himenon/template-js': ^1.0.2
+      '@himenon/template-js': 1.0.5-alpha.9+69ce9c0
     dependencies:
-      '@himenon/template-js': 1.0.2
+      '@himenon/template-js': 1.0.5-alpha.9
 
   packages/cjs:
-    specifiers:
-      '@himenon/template-js': ^1.0.2
-    dependencies:
-      '@himenon/template-js': 1.0.2
+    specifiers: {}
 
   packages/esm:
-    specifiers:
-      '@himenon/template-js': ^1.0.2
-    dependencies:
-      '@himenon/template-js': 1.0.2
+    specifiers: {}
 
   packages/pure:
-    specifiers:
-      '@himenon/template-js': ^1.0.2
-    dependencies:
-      '@himenon/template-js': 1.0.2
+    specifiers: {}
 
   packages/ts:
     specifiers:
-      '@himenon/template-js': ^1.0.2
       '@swc/core': ^1.2.196
       '@swc/helpers': ^0.3.17
       '@types/node': ^17.0.38
       ts-node: ^10.8.0
       typescript: ^4.7.2
-    dependencies:
-      '@himenon/template-js': 1.0.2
     devDependencies:
       '@swc/core': 1.2.196
       '@swc/helpers': 0.3.17
@@ -52,9 +40,11 @@ packages:
       '@jridgewell/trace-mapping': 0.3.9
     dev: true
 
-  /@himenon/template-js/1.0.2:
-    resolution: {integrity: sha512-pTJ2w2YDMFZ0Sc++6lW27up+SFHE7eu1dNYAjnaWvIQg72Et5w74yWEMeQuhRkSxcjCIMoAg/TLCyzVfU+D7Iw==}
-    engines: {pnpm: '>=6'}
+  /@himenon/template-js/1.0.5-alpha.9:
+    resolution: {integrity: sha512-Rxjy78OPuR/u1A4ZjosWEWmr6icu+Ec8UAJEiV6thMKYHIS/b9fXlZoIShnezOA34iJMLM/mJa99xV1FnxuEuw==}
+    engines: {pnpm: '>=7'}
+    dependencies:
+      template-js-import-check: 'link:'
     dev: false
 
   /@jridgewell/resolve-uri/3.0.7:
